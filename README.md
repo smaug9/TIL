@@ -16,6 +16,16 @@ $resourceFiles = New-Object System.Collections.ArrayList(,$someArray)
 cat /etc/ssh/sshd_config | grep -Ev '^#|^$'
 ```
 
+## 2020-04-08
+
+### set cryptosafe mode on esx host===
+
+```
+set-vmhost tfc-esx101 -KmsCluster (vmware.vimautomation.storage\get-kmscluster kmsclustername | 
+  ? {$_.uid -match 'vcservername'})
+``` 
+
+
 ## 2020-03-01
 
 ### manually run powershell scheduled job
