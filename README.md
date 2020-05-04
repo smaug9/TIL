@@ -2,31 +2,25 @@
 
 
 
-## 2020-05-04
-
-### Fast nmap scan
+## 2020-05-04 Fast nmap scan
 
 ```
 nmap -p 1-65535 -T 4 -v target.tld
 ```
 
-### Powershell: convert array to arraylist
+### 2020-05-04 Powershell: convert array to arraylist
 
 ```
 $resourceFiles = New-Object System.Collections.ArrayList(,$someArray)
 ```
 
-## 2020-04-18
-
-### Linux: filter comments and blnak lines with grep
+## 2020-04-18 Linux: filter comments and blnak lines with grep
 
 ```
 cat /etc/ssh/sshd_config | grep -Ev '^#|^$'
 ```
 
-## 2020-04-08
-
-### set cryptosafe mode on esx host
+## 2020-04-08 set cryptosafe mode on esx host
 
 ```
 set-vmhost tfc-esx101 -KmsCluster (vmware.vimautomation.storage\get-kmscluster kmsclustername | 
@@ -34,9 +28,7 @@ set-vmhost tfc-esx101 -KmsCluster (vmware.vimautomation.storage\get-kmscluster k
 ``` 
 
 
-## 2020-03-01
-
-### manually run powershell scheduled job
+## 2020-03-01 manually run powershell scheduled job
 
 ```
 (Get-ScheduledJob -id 1).StartJob()
@@ -45,9 +37,7 @@ Receive-Job -id 1
   
   * ref: https://stackoverflow.com/questions/36691114/powershell-manually-trigger-a-scheduled-job
   
-## 2020-03-01
-
-### install brave ubuntu
+## 2020-03-01 install brave ubuntu
 
 ```
 sudo su -
