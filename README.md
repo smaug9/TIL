@@ -8,7 +8,11 @@
 $resourceFiles = New-Object System.Collections.ArrayList(,$someArray)
 ```
 
+### Linux: filter comments and blnak lines with grep
 
+```
+cat /etc/ssh/sshd_config | grep -Ev '^#|^$'
+```
 
 
 
