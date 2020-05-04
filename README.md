@@ -1,4 +1,16 @@
-# notes
+# TIL
+
+## 2020-05-04
+
+### Powershell: convert array to arraylist
+
+```
+$resourceFiles = New-Object System.Collections.ArrayList(,$someArray)
+```
+
+
+
+
 
 ## manually run powershell scheduled job
 
