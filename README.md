@@ -1,6 +1,14 @@
 # TIL
 
+
+
 ## 2020-05-04
+
+### Fast nmap scan
+
+```
+nmap -p 1-65535 -T 4 -v target.tld
+```
 
 ### Powershell: convert array to arraylist
 
