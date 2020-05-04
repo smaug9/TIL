@@ -37,7 +37,9 @@ Receive-Job -id 1
   
   * ref: https://stackoverflow.com/questions/36691114/powershell-manually-trigger-a-scheduled-job
   
-## install brave ubuntu
+## 2020-03-01
+
+### install brave ubuntu
 
 ```
 sudo su -
