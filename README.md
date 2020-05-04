@@ -26,7 +26,7 @@ cat /etc/ssh/sshd_config | grep -Ev '^#|^$'
 
 ## 2020-04-08
 
-### set cryptosafe mode on esx host===
+### set cryptosafe mode on esx host
 
 ```
 set-vmhost tfc-esx101 -KmsCluster (vmware.vimautomation.storage\get-kmscluster kmsclustername | 
