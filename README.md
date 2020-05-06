@@ -1,5 +1,10 @@
 # TIL
 
+### 2020-05-06 powershell grep -v
+
+```
+cat filename.txt | sls -pattern '^#' -notmatch
+```
 
 
 ### 2020-05-04 Fast nmap scan
