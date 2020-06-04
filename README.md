@@ -1,5 +1,13 @@
 # TIL
 
+## 2020-06-04 powershell get fully qualified url from relative
+
+```
+
+$response = iwr https://server.domain.com/iso/
+$response.links.href | sls 'VMware*.iso' | % {$iso.BaseResponse.ResponseUri.AbsoluteUri + $_}
+
+```
 ### 2020-05-06 powershell grep -v
 
 ```
